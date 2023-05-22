@@ -48,17 +48,44 @@
 .highlight {
   background-color: var(--yellow);
 }
-h1, p {
+h1, h5, p {
   text-align: left;
+  margin-bottom: 0px;
 }
 
+.sh-row {
+  margin-bottom: 25px;
+}
 .sh-right {
   text-align: right;
-  margin-bottom: 25px;
 }
 
 .anim {
   animation: updown 3s linear infinite;
+}
+
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 150px 0 0 0;
+}
+
+.logo {
+  max-height: 60%;
+  max-width: 60%;
+
+}
+
+.entry {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.shift-left {
+  padding-right: 20% !important;
+}
+
+.shift-right {
+  padding-left: 20% !important;
 }
 
 /* Banner CSS */
@@ -77,8 +104,8 @@ h1, p {
   top: -20px;
   max-width: 100%;
   max-height: 100%;
-
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-10px);
@@ -94,6 +121,33 @@ h1, p {
   border-right: 0.08em solid #666;
 }
 
+/* Achievements CSS */
+
+.timeline {
+  border-left: 3px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -2.85em;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+  content: "";
+}
+
 /* Footer CSS */
 
 .footer {
@@ -102,4 +156,13 @@ h1, p {
   padding: 50px 0px 40px 0px;
   color: var(--grey);
   /* font-weight: bold; */
+}
+
+/* About Me CSS */
+
+#me img {
+  position: relative;
+  top: -20px;
+  max-width: 100%;
+  max-height: 100%;
 }

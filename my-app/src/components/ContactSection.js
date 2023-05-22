@@ -11,18 +11,16 @@ import { faLinkedinIn, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 function ContactSection() {
   return (
-    <section className="banner" id="contact">
-    <Container bg="light">
-      <Row className="flex">
+    <section id="contact">
+    <Container bg="light" className="shift-left">
+      <Row>
           <Col xs={12}>
             <p className="h1">
               contact
             </p>
           </Col>
       </Row>
-
       <Row>
-
       <Col xs={12} md={6} xl={5}>
             <div>
               <p>

@@ -12,8 +12,8 @@ function Banner() {
           <Col xs={12} md={6} xl={7} className="me-auto">
                 <h1>hi, i'm jaye yap!</h1>
                 <p>i'm an aspiring <span className="fw-bold highlight">product manager</span>.</p>
-                <p>with my <span className="fw-bold">technical experience</span> and <span className="fw-bold">passion for design</span>,
-                  i am highly interested in building digital products that make a difference.
+                <p>with my <span className="fw-bold">technical experience</span> and <span className="fw-bold">heart for design</span>,
+                  i am passionate about building digital products that make a difference.
                 </p>
           </Col>
           <Col xs={12} md={6} xl={5}>

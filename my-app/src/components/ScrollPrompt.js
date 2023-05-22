@@ -6,7 +6,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 function ScrollPrompt() {
   return (
-    <section>
+    <div>
     <Container>
       <Row>
         <p className="text-center anim">
@@ -16,7 +16,7 @@ function ScrollPrompt() {
         </p>
       </Row>
     </Container>
-    </section>
+    </div>
   );
 }
 

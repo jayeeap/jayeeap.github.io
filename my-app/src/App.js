@@ -10,6 +10,8 @@ import Footer from './components/Footer.js';
 
 import ProjectsSection from './components/ProjectsSection.js';
 import ExperienceSection from './components/ExperienceSection.js';
+import AchievementsSection from './components/AchievementsSection.js';
+
 import MeSection from './components/MeSection.js';
 import ContactSection from './components/ContactSection.js';
 
@@ -20,8 +22,10 @@ function App() {
       <Banner/>
       <ScrollPrompt/>
 
-      {/* <ProjectsSection/>
-      <ExperienceSection/> */}
+      <ProjectsSection/>
+      <ExperienceSection/>
+      <AchievementsSection/>
+
       <MeSection/>
       <ContactSection/>
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,17 +9,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
-
-
 function ContactSection() {
   return (
     <section id="contact">
     <Container bg="light" className="shift-left">
       <Row>
-          <Col xs={12}>
-            <p className="h1">
+          <Col xs={12}
+          data-aos="fade-right" data-aos-duration="900">
+            <h1 className="section-header">
               contact
-            </p>
+            </h1>
           </Col>
       </Row>
       <Row>

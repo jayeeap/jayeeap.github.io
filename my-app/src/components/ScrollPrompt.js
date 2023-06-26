@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -9,8 +11,9 @@ function ScrollPrompt() {
     <div>
     <Container>
       <Row>
-        <p className="text-center anim">
-          get to know me
+        <p className="text-center anim"
+        data-aos="zoom-in" data-aos-duration="900">
+          get to know me :)
           <br/>
         <FontAwesomeIcon icon={faArrowDown} className="mt-3"/>
         </p>

@@ -274,10 +274,12 @@ function ProjectsSection() {
                   <p className={para.includes("Lesson") ? "h6 fst-italic" : ""}> {para}</p>
                 ))}
               </Container>
-              
-        
+            </Container>
+            <Container className="pb-2">
+              <Image src={`/signature.png`} fluid className="w-50 float-end"></Image> 
             </Container>
           </Container>
+          
         
         </Modal.Body>
       </Modal>

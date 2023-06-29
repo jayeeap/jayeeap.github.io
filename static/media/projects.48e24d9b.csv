@@ -1,0 +1,155 @@
+﻿Tag,Name,Type,Date,Program,ShortOutcome,ProblemStatement,TechnicalSkills,Platforms,Background,Task,Process,Outcome,Learnings
+personal-website,My Personal Website!,Design & Development,May 2023 - Jun 2023,,N/A (Side Project),"Create a website that captures my personal branding, along with my diverse experiences and skillsets :)","HTML, CSS, JavaScript (ReactJS), Lo-Fi Prototyping","Figma, Visual Studio Code, GitHub","Throughout my journey studying a tech degree in university, I've had the opportunity of exploring various fields in the industry – particularly development and strategy, which I took several classes in. These experiences honed my technical skills, yes, but also my interpersonal and problem solving capacities. I put on different hats (as developer, designer, product manager, business strategist), and found enjoyment in each of them. This made me realise that my biggest career interest was in playing a significant role the creation of digital products that didn't just address a clear need, but were visually polished and user-centric. 
+
+I wanted a career that allowed me to leverage my technical background, but also draw from my design interests and business mindset. I wanted a platform to display this blend of interests unrestricted to a single-page, Calibri document.","Create a website that captures my personal branding and unique mix of skills and experiences, within the first 2 months of summer break.","Stage 1: Planning
+I wanted to ensure I stuck to this goal, so I put it to (digital) paper immediately. I mapped out my objective and milestones, under the main purpose of creating a website that would show, not just tell, my career network who I was, what I can offer, and what I am looking for in internship and full-time opportunities. 
+
+#planning.png: My Notion master file!
+
+I put end June as my deadline, which would give me a good month and a half to use the website in job applications over the summer (and beyond, of course). I broke down the sections I would need, in terms of content, and worked backwards from my deadline to map the completion of those sections in 2 week sprints.
+
+Stage 2: Design
+I timeboxed my design work to 1 week, to ensure I wouldn't get carried away. Researching on other developer and design portfolios, I found myself inspired by minimalist sites that incorporated their owner's character in their style and details. 
+
+#inspiration.png: Some sites I checked out to kickstart my design brainstorming
+
+As an extroverted introvert, I felt this captured my personality quite well. I didn't want the design to distract viewers from the content, so I kept the space clean and simple, with pops of yellow (my favourite colour), and utilitarian (but smooth) animations to make the flow more dynamic.
+
+I went for a single page website design to reduce the amount of clicks needed to navigate around. Users could simply scroll from top to bottom to get the gist of my portfolio, and click to open modals that would contain more information if they were interested. I kept a navigation bar, of course, to provide the option for shortcuts to different sections of the page for higher flexibility and convenience.
+
+#design.png: The first draft of my site overview, beside the simple wireframe I made on Figma
+
+Stage 3: Development
+Following my roadmap, I worked on the essential features (e.g., navigation bar, welcome banner, footer) first, to lay the groundwork and assess the look and feel of my chosen theme. Next, I coded out the static views of each of my page sections iteratively, hardcoding the content first so that I could focus more on the overall layout. 
+
+As I worked on the Project and Experiences sections, I realised they would be comprised of identically-formatted chunks of information that would definitely be updated on a semi-regular basis. It wouldn't be very efficient, nor clean, to type every paragraph directly into the working code, which would definitely result in large code files that would be a pain to scroll through. A sustainable setup would require minimal retouches to the codebase over time, even as my data changed. Hence, I decided to use CSV files to store my metadata for content-heavy sections, and designed my code to parse through each row and insert text cells into their appropriate locations based on the headers.
+
+#csv.png: The backend of what you're seeing now!
+
+This way, rather than expend energy on menial tasks like copy-pasting paragraph tags or ensuring format standardisation across sections and subsections, I could focus on the content – and my code would translate these into predesigned visuals on the webpage automatically. This saved a significant amount of development time.
+
+#code.png: Where the mapping happens!
+
+Stage 4: Content Curation
+Finally, I selected projects that accurated represented the breadth of experiences I explored, and provided writeups to capture the depth of my involvement with each of them. This exercise actually helped me process my experiences better, even in retrospect, so it was a win-win both short-term and long-term :)
+","Well, you're looking at it, so I hope it paid off!","Lesson 1: Taking stock of your career milestones helps you appreciate the journey so far, and better plan for your next steps! 
+Before putting together this website, I had tons of documents and resume versions that captured snapshots of my experiences at different stages of life. However, consolidating these into 1 platform increased my awareness of where I was positioned, all things considered, and where I could invest more time to grow with intention.
+
+Lesson 2: Consistent effort gets the job done.
+Especially for a summer side project, leaving this website as a nice-to-have without a firm deadline was tempting. However, I knew that if I wanted to ensure it got done, I'd need to write it down and set reasonable benchmarks throughout the weeks. This helped me avoid burnout and motivated me to put in small increments of work every few days. 
+
+Eventually, these 30- to 60-minute coding sessions aggregated into a complete webpage."
+vms,Vendor Management System,Development,Jan 2023 - Apr 2023,Object Oriented Programming,A,"In 9 weeks, build a vendor management system that could support multiple user types and functions, such as form and workflow processes, user management, and archive management.","Agile Development, HTML, CSS, JavaScript (ReactJS), Lo-Fi Prototyping","Visual Studio Code, Jira, GitHub","My OOP module partnered with QuantumLeap to create a platform to facilitate the creation, assignment, submission, and approval of forms from internal administrators to external vendors. 
+
+The client gave the class 4 options to choose from, in increasing order of functionality – and difficulty. The simplest was a file upload system through which users could download static forms, accomplish them on a separate software, and then reupload them. All questions and workflows could be hardcoded. The highest tiered option was a fully dynamic system that allowed full flexibility, where administrators could create forms, assign them to unique workflows, and assign these workflows to specific individuals – all while supporting back-and-forth transitions within the form submission and approval stages.","In 9 weeks, build a vendor management system that could support multiple user types and functions, such as form and workflow processes, user management, and archive management.
+
+Our team aimed for the fully dynamic solution.
+
+I was part of the frontend team, where I doubled as work package manager and developer.","Stage 1: Planning
+The team understood that a well-rounded solution (one that was both functional and visually pleasing) was key to meeting the client's brief. We split into 2 teams of 3 – 1 for back end, 1 for front end – and mapped out our project timeline, working backwards from the deadline and considering each person's workload, availabilities, and technical capabilities. 
+
+From Week 1, we reviewed the requirements and set milestones to ensure we paced our work despite anticipated busy periods. Together, we discussed how the platform would be sectioned, and how to set it up to accomodate different user groups.
+
+Stage 2: Design
+#screens-overview.png: A high-level breakdown of the platform's pages and subpages
+
+To prepare for development work, the frontend team drafted rough Figma wireframes. First, we unpacked the client brief into user stories. Then, we translated these into  pages and subpages, and mapped out the relationships from one to the other. Understanding that the client would finetune their requests in later weeks, especially for smaller details, we focused on the overall structure and main pages first.
+#wireframes.png: A rough overview of the screens to cover
+
+Stage 3: Development
+This occured in 3 sets of 2-week sprints, with open communication throughout. At the beginning of each sprint, the whole team came together to discuss our goals and coordinate any dependencies anticipated between the backend and frontend. 
+
+Then, we got to work. The frontend team split our workload by user stories and conducted informal daily stand-ups and mid-sprint check-ins to stay updated on each other's progress and blockers. Any clarifications we had on for the backend team, and vice versa, were raised in our main group chat.
+
+At the end of the sprint, the group reassembled to walk through the work completed and measure them against our planned deliverables. We then discussed areas of improvement and revisit our timeline if adjustments needed to be made, based on new knowledge or rework needs. Based on this, we kept a running list of questions and answers on a Google Doc for easy reference as discussions and decisions were made over the weeks.
+
+Stage 4: Testing
+Our team conducted rigorous testing throughout the development process. Most of this occured during our individual work sessions and weekly group check ins. For this, we referred to the user stories we outlined at the beginning of a particular sprint and clicked through the web pages based on each step of the user journey to spot missing steps or faulty features. We also tested each other's codes, to catch any blind spots. This was done on 2 levels: pure frontend, and full frontend-backend integration.
+
+At the end of all 3 sprints, in the week leading to submission, we went through all user stories in sequence, ensuring every feature and detail was accounted for.","Our group presented our Tier 4 solution to the client, who was impressed by the extensive functionality and clean user interface. We received an A for the project.","Lesson 1: There's no cookie-cutter method of organising a team.
+From the beginning, the 6 of us leapt into frontend- and backend-specialised groups because we figured that if this enabled us to move quickest as separate workgroups, it would translate into overall efficiency. This was true for the first half of the timeline, which was spent setting up both environments individually. However, as the project matured and linking began, scenarios cropped up where the frontend team could only sit on their hands while waiting for their backend counterpart to debug an API, or the backend team waited for their frontend counterpart to come online and test a new fix. 
+In other words, splitting the group into 2 silos introduced lapses of idle time throughout the later half of the project, which could have been minimised if, rather than 1 frontend person and 1 backend person collaborating on a particular work package, we had assigned 1 person to take on full ownership via a fullstack role.
+
+Of course, this would come with the tradeoff of possibly higher learning curves at the beginning of the project, during which members who were strongly specialised in one end of development would need to pick up and adjust to a fullstack mindset. The advantages and drawbacks of either set up are equally valid, and would definitely be properly measured in future projects.
+
+Lesson 2: Communication and transparency are key (as cliche as it sounds).
+At different phases of the project lifetime, several members of the team struggled to meet their deliverables on time due to busyness with other commitments. This happened for several weeks consecutively, which meant delays in meeting internal milestones and added pressure on the others.
+
+This situation could have been avoided if everyone was more realistic about their bandwidths from the start, which would have allowed us to better project our development work. Because I was worried about dashing the team's morale, I kept the issue to myself and eventually only broached the topic towards the end of the project, when the deadline was looming. Everyone was very professional about it, and we reassessed our timeline and resumed much more smoothly.
+
+In hindsight, this conversation definitely could have been done sooner, which may have reduced the stress the whole team collectively faced in the days leading up to submission. I love my teammates. Nonetheless, though we did pull off a cohesive solution, I believe that with their unquestionable skills, we could have created an even more polished, functional application if the pacing were done right."
+nook,nook – A nifty mental wellness app,Development,May 2022,NTU x PSBA Google DSC HackFest 2022,1st out of 17 teams,"Choose at least 1 or more of the UN Sustainable Development Goals to address with a tech solution, using at least 1 Google technology.","Flutter, Hi-Fi Prototyping","Visual Studio Code, GitHub","In 2019, the World Health Organisation recognised that mental wellness was fundamental to sustainable development. 
+
+COVID-19 only highlighted its impact on overall wellness and quality of life. In fact, in 2020, the lack of accessibility and affordability of such support services were underscored in Singapore parliamentary debate. What more in lower- to middle-income countries? How could we promote this through technology?","Choose at least 1 or more of the UN Sustainable Development Goals to address with a tech solution, using at least 1 Google technology. Impact, presentation, and design accounted for 75% of the scoring, with tech stack at 25%.
+
+Our team decided on nook – a nifty mental wellness mobile app. It would serve as an all-in-one platform for users to connect with professional therapists and likeminded peers, as well as track their emotions and insights.
+
+We had 3 days to create our solution, and I took on the role of primary designer and developer.","Stage 1: Business Case and Planning
+Given the limited timeframe, my team agreed to prioritise the biggest parts of the judging criteria and play to our strengths. First, we identified a problem that was relevant to all of us – mental wellness. Then, we investigated the solution space to find an angle that wasn't very saturated, and yet incorporated rising technology trends. To ensure a finished product, we identified our target deliverables, and which items were out of scope.
+
+Stage 1.5: Setup
+Once we decided we were working with Flutter, a new language for everyone, we began software installation as early as possible. This was in anticipation of error debugging, which took us several days to resolve.
+
+Stage 2: Design
+#nook-logo.png: Our vision behind the nook logo
+The team decided to cover all main screens first – home, therapist search, journal, forum, and profile. We took inspiration from social media and health applications and laid out a high-fidelity prototype, with standard page interactions. This helped us grasp what we were dealing with and better allocate work between the 3 designated developers. 
+#wireframes.png: Figma wireframe of the nook application's MVP screens
+
+Stage 3: Development
+I was the first of the 3 to begin coding. After fiddling with the home page to get familiar with the Flutter syntax, I decided to created all the reusable components to save my teammates time once they got to their own assigned screens. These included cards, modals, and the navigation bar. Once these  were settled, it was a matter of laying them out according to our wireframe. This went smoothly, for the most part, except for one blocker – we were struggling to implement the journal button, which was designed to hover at the upper right part of the screen. 
+
+After each of us had attempted to resolve this, in the interest of time, we decided to scrap the initial layout and move it to the navigation bar instead. This allowed us to focus on features that were more important to our business case, such as the actual page content.
+
+Stage 4: Curation
+The night before submission, we cleaned up our codes, exported the screens in static and video format, and then inserted them into our presentation slides. We balanced textual descriptions with app visuals, and included an architecture diagram and general rollout plan in order to strengthen our business case.
+#presentation-excerpt.png: A snippet of our final slide deck","Following our live presentation and a Q&A session with the judges (on both the business and technical aspects of our solution), we were awarded 1st place out of 17 teams.
+#group-photo.png: Awarding ceremony with all finalist teams!","Lesson 1: A tech solution is only as good as its business case.
+Although it was this hackathon specifically that attributed a 25% weightage to technical implementation, I believe this reflects the reality of any product. In the context of impactful, human-centric products, true value comes from meeting a need, not functional impressiveness alone. Additionally, putting together a polished, important app is only part of the delivery process: having a roadmap for reaching its target users, as well as achieving a sustainable degree of profitability and scale, is key.
+ 
+Lesson 2: Setups with foresight can go a long way in process efficiency.
+Building the reusable components for nook meant taking a bit more time to ensure they were adequately customisable and screen-agnostic. On top of getting my bearings with Flutter to begin with, I knew this was extra effort that slowed down the development of my first screen. 
+However, this paid off when both my teammates and myself were able to plug these components into our pages afterwards, which saved us time, kept our code clean, and made making standard changes to these components much more time effective."
+qoo10,Qoo10 UIUX Redesign,Design,Feb 2022 - Mar 2022,SMU Google DSC 2022 UIUX Competition,1st out of 29 teams,"Focusing on usability and user experience in the online shopping experience, improve a feature or section of an existing mobile e-commerce application.","Design Thinking, Heuristics, UIUX Design",Figma,"Qoo10 is a Southeast Asian e-commerce platform headquartered in Singapore. Despite being one of the pioneers in the market, its fallen behind its successors – seeing only 20,000 thousand downloads in January 2022, compared to Lazada's 5 million and Shopee's 14 million.
+
+How could we enable Qoo10 to regain its competitive advantage through user-centric mobile app design?","To achieve this goal, my team targeted and addressed 3 main UI pain points: its lack of intuitiveness, complexity, and cluttered display. 
+
+Our redesign goals were to improve the app's functionality and consistency with industry standards; specifically, we focused on its menu and navbar, search and filter, and home page features.","Stage 1: Planning
+As this competition took place over project season, my team had limited common availabilities and knew strategic planning would be key to creating a solid case. With this, we established that our focus would be on layout and functionality first (which were more directly linked to usability), and aesthetics second.
+
+Stage 2: Company and Industry Analysis
+Next, we got to understand Qoo10 and its competitors better. This involved doing research on its product offerings and promotions, to understand its historical customer base. We did the same research on its biggest competitors, Shopee and Lazada. 
+
+Stage 3: Crafting User Personas 
+Having understood Qoo10's market, we drafted out a primary and secondary persona to capture the typical users of the Qoo10 app. This included their demographics, goals and needs, and pain points with the general online shopping experience.
+#primary-persona.png: Our primary persona
+#secondary-persona.png: Our secondary persona
+
+Stage 4: Getting Hands On
+After high-level research, we downloaded each of the 3 e-commerce apps and put ourselves in the shoes of the average user, looking for a specific product. We did our best to set aside personal biases towards its competitors' apps, being much more familiar with their UI, and compared the user journeys on each one. 
+
+From this exercise, we noted how busy the Qoo10 app was, with its menu and navigation bar boasting countless icons, we didn't know how to get to the pages we wanted (e.g., the listings). Moreover, the icons and layout of elements itself did not play to muscle memory. Across multiple apps, whether e-commerce, social media, or lifestyle, users were accustomed to specific feature placements: the profile button at the lower right, a left-side hamburger menu symbolising a menu, a home button placed at the navbar. These configurations were off-kilter in the Qoo10 app, making navigation clumsy and memory-intensive. 
+
+We realised that in terms of user experience, the Qoo10 app seemed to deter even younger, tech-savvy users – what more middle-aged adults who may be less keen to pick up and retain tons of new information and design systems?
+
+Stage 5: Identifying Pain Points and Focus Areas
+With both primary and secondary research, the 4 of us convened to list down all the pain points we experienced navigating the Qoo10 app, throughout the standard user purchase journey. This scope immediately reduced the amount of clutter we would have otherwise had to explore, given the extensive line of features the app offered. After coming up with our list, we categorised them by feature, which allowed us to regain perspective of the bigger picture and prioritise which were crucial to the most fundamental customer journey. We decided to build our case on the top 3 functionalities, to allow us enough time to make thorough and meaningful improvements – not just a haphazard array of unrelated fixes.
+#soln-overview.png: Our selected focus areas based on the primary user journey
+
+We then split the work among ourselves: 1 person prepared the slide deck, while the remaining 3 took on 1 functionality each. I handled the menu and navigation bar, the anchors of any app as feature-packed as Qoo10.
+#menu-navbar-overview-1.png: Inconsistent navigation bar layout
+#menu-navbar-overview-2.png: Poor visibility of key features
+#menu-navbar-overview-3.png: Clutter due to visual redundancy
+
+Stage 6: Design
+I based my redesign on addressing 5 main heuristics, specifically  user control and freedom; consistency and standards; recognition over recall; match between system and real world; and an aesthetic and minimalist design.
+#menu-navbar-redesign-1.png: Heuristics addressed by navbar redesign, Part 1
+#menu-navbar-redesign-2.png: Heuristics addressed by navbar redesign, Part 2 
+#menu-navbar-redesign-3.png: Heuristics addressed by menu redesign
+
+Stage 7: Case Deck Consolidation
+Finally, we reconvened to put our designs on the slide deck. Our case would flow from problem statement, to pain points (with screenshots of specific screens), to the redesign of those screens, and then a brief summary of the impact of our improvements. This sequence was key to building and selling our case as a concise yet effective solution that addressed specific user needs throughout the most essential journey on an e-commerce app. ","We were honoured to come in 1st ouf of 29 teams!
+#outcome.jpeg: Holding our winners' stickers!","Lesson 1: Proper planning sets the stage for success.
+If my team had dove head first into the project, we may have gotten caught up at either the research or design stages – given all the possible angles available. Our awareness of the time constraints emphasised the need to start with an end in mind, and be wise with how we spent our time individually and as a unit. This translated into a pace and workload that was sustainable, even on top of our academic responsibilities outside of this.
+
+Lesson 2: Prioritisation is key.
+Somewhat related to the previous point, it's important to identify the angle and scope that most effectively hits a brief. My group prioritised layout and functionality over aesthetics because we knew these had higher weightage in the judging criteria, which was more user experience-focused. Although our final screens were not the most beautiful, nor 100% consistent (e.g., discrepancies in font sizing and minor colours), it got our key points across and illustrated the design principles we wanted to highlight. I believe this strategy contributed to a UIUX design case that was ultimately cohesive and memorable."
